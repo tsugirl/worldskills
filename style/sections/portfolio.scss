@@ -1,0 +1,122 @@
+.portfolio {
+    width: 1260px;
+    height: 874px;
+}
+
+.portfolio_top {
+    margin-top: 60px; 
+    margin-bottom: 100px;
+    display: flex;
+    align-content: space-between;
+}
+
+.portfolio_top_left {
+    margin-left: 35px;
+    margin-right: 380px;
+}
+
+.portfolio_top_left_under-headline {
+    color: $text-gray;
+    margin-bottom: 25px;
+}
+
+.portfolio_top_left_headline {
+    color: $deep_blue;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.portfolio_top_left_text {
+    color: $light_text_gray;
+}
+
+.portfolio_top_right {
+    display: flex;
+    align-items: center;
+}
+
+.portfolio_top_right_arrow_back {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 35px;
+    background-color: rgba(20, 33, 61, 0.5);
+    margin-right: 40px;
+    background-image: url(../img/portfolio_top_right_arrow_back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.portfolio_top_right_arrow_forward {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 35px;
+    background-color: $deep_blue;
+    background-image: url(../img/portfolio_top_right_arrow_forward.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.portfolio_buttom_list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio_buttom_list-item_pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    margin-bottom: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio_gouache {
+    background-image: url(../img/portfolio_gouache.png);
+}
+
+.portfolio_aquarelle {
+    background-image: url(../img/portfolio_aquarelle.png);
+}
+
+.portfolio_fire {
+    background-image: url(../img/portfolio_fire.png);
+}
+
+.portfolio_buttom_list-item_headline, .portfolio_buttom_list-item_text, .portfolio_buttom_list-item_button {
+    text-align: center;
+}
+
+.portfolio_buttom_list-item_headline {
+    font-size: 36px;
+    color: $deep_blue;
+    margin-bottom: 30px;
+}
+
+.portfolio_buttom_list-item_text {
+    color: $light_text_gray;
+    margin-bottom: 45px;
+}
+
+.portfolio_buttom_list-item_button {
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    height: 65px;
+    background-color: $deep_blue;
+    color: white;
+    font-size: 22px;
+    border-radius: 30px;
+    border: 0px;
+}

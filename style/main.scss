@@ -1,0 +1,27 @@
+//vars
+$cont_width: 1260px;
+//colors
+$deep_blue: #14213D;
+$orange: #FCA311;
+$text_gray: #303948;
+$white_gray: #E5E5E5;
+$light_text_gray: #59616D;
+
+
+
+
+//settings
+@import "settings/adjustment.scss";
+@import "settings/mixins.scss";
+
+
+//sections
+@import "sections/header.scss";
+@import "sections/hero.scss";
+@import "sections/experienced.scss";
+@import "sections/client.scss";
+@import "sections/services.scss";
+@import "sections/process.scss";
+@import "sections/portfolio.scss";
+@import "sections/testimonials.scss";
+@import "sections/footer.scss";

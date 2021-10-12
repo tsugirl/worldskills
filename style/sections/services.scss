@@ -1,0 +1,140 @@
+.services {
+    width: 1260px;
+    height: 905px;
+    display: flex;
+}
+
+.services_left {
+    margin-right: 90px;
+    margin-top: 115px;
+}
+
+.services_left_graybox {
+    height: 740px;
+    width: 520px;
+    background-color: $white_gray;
+    border-radius: 30px;
+}
+
+.services_left_graybox-pic {
+    position: relative;
+    right: 30px;
+    top: -45px;
+    height: 740px;
+    width: 520px;
+    background-image: url(../img/services_left_graybox-pic.png);
+    border-radius: 30px;
+}
+
+.services_left_graybox-pic_circle {
+    position: relative;
+    top: 295px;
+    right: 75px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: $orange;
+}
+
+.services_left_graybox-pic_dots {
+    position: relative;
+    top: -200px;
+    left: 412px;
+    width: 190px;
+    height: 190px;
+    background-image: url(../img/dot_grid.svg);
+    background-repeat: no-repeat;
+}
+
+.services_right {
+    margin-top: 80px;
+}
+
+.services_right_top {
+    margin-bottom: 90px;
+}
+
+.services_right_top_underheadline {
+    color: $text_gray;
+    margin-bottom: 25px;
+}
+
+.services_right_top_headline {
+    color: $deep_blue;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.services_right_top_text {
+    color: $light_text_gray;
+}
+
+.services_right_list {
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.services_right_list-item {
+    width: 245px;
+    height: 155px;
+    margin-bottom: 100px;
+    margin-right: 90px;
+}
+
+.services_right_list_2n-child {
+    margin-right: 0px;
+}
+
+.services_right_list_4n-child {
+    margin-right: 0px;
+}
+
+
+.services_right_list-item_top {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.services_right_list-item_logo {
+    margin-right: 20px;
+    width: 55px;
+    height: 55px;
+}
+
+.apps-logo {
+    background-image: url(../img/apps-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.design_services-logo {
+    background-image: url(../img/design_services-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.seo-logo {
+    background-image: url(../img/seo-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.tester-logo {
+    background-image: url(../img/tester-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.services_right_list-item_headline {
+    color: $text_gray;
+}
+
+.services_right_list-item_buttom {
+    color: $light_text_gray;
+}

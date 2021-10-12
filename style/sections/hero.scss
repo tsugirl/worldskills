@@ -1,0 +1,44 @@
+.hero {
+    height: 707px;
+    width: 100%;
+    border-radius: 35px;
+    background-image: url(../img/businessman.png), url(../img/hero_bg_main.png);
+    background-position: bottom 0% right -8%, right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 55%, 120%;
+    display: flex;
+    align-items: center;
+}
+
+.hero_cont {
+    margin-left: 77px;
+}
+
+.hero_cont_headline {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+.hero_cont_text {
+    color: white;
+    margin-bottom: 40px;
+    font-style: 'regular';
+}
+
+
+.hero_cont_button {
+    cursor: pointer;
+    background-color: white;
+    width: 264px;
+    height: 67px;
+    border-radius: 35px;
+    border: 0px;
+}
+
+.hero_cont_button-link {
+    color: $text_gray;
+
+    font-size: 22px;
+}
+

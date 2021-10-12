@@ -1,0 +1,59 @@
+.client {
+    width: 1260px;
+    height: 353px;
+    margin-bottom: 10px;
+}
+
+.client_headline {
+    padding-top: 78px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin: auto;
+    font-size: 36px;
+    color: $text_gray;
+}
+
+.client_text {
+    text-align: center;
+    margin-bottom: 70px;
+    color: $text_gray;
+}
+
+.client_company_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.client_company_list-item {
+    margin-right: 28px;
+}
+
+.microsoft {
+    width: 190px;
+    height: 51px;
+    background-image: url(../img/mircrosoft.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.google {
+    width: 150px;
+    height: 51px;
+    background-image: url(../img/google.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.amazon {
+    margin-right: 0px;
+    margin-bottom: -19px;
+    width: 150px;
+    height: 51px;
+    background-image: url(../img/amazon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}

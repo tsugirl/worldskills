@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Gordita ";
+}
+
+.container {
+    width: $cont_width;
+    margin: auto;
+}
+
+.main_cont {
+    margin: auto;
+    width: 1510px; //нужно, чтобы все элементы сайта на телефонах отображались корректно
+}
+
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+//@font-face {
+//    font-family: "Gordita "; 
+//    src: url("../fonts/Gordita-Regular.ttf") format("truetype");
+//    font-style: 'regular';
+//    font-weight: bolder;
+//}
+
+@font-face {
+    font-family: "Gordita "; 
+    src: url("../fonts/Gordita-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bolder;
+}
+
+
+

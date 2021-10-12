@@ -1,0 +1,47 @@
+.experienced {
+    width: 1039px;
+    height: 326px;
+    background-color: $deep_blue;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: -100px;
+    margin-bottom: 90px;
+    background-image: url(../img/vector_experienced.svg);
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.experienced_cont {
+    padding-left: 42px;
+    padding-top: 105px;
+}
+
+.experienced_headline {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.experienced_text {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.experienced_cont_arrow {
+    width: 920px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+}
+
+.experienced_arrow {
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    background-image: url(../img/Arrow.png);
+    background-repeat: no-repeat;
+    margin-top: -24px;
+    
+}
+
